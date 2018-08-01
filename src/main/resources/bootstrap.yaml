@@ -1,0 +1,13 @@
+server.port: ${PORT} # port the Spring Cloud Config server will listen on
+spring.profiles.active: git
+
+spring.cloud.config.server.git:
+  uri: ${CONFIG_REPO_URI}
+  label: master
+  searchPaths: pcd1718-paas
+
+#spring.cloud.config.server.encrypt.enabled: false # disable server-side decryption
+
+endpoints.health.sensitive: false
+management.security.enabled: false
+management.endpoint.health.show-details: "ALWAYS"

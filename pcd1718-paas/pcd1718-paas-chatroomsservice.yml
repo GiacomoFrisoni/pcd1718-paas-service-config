@@ -1,0 +1,4 @@
+app.version: 0
+another:
+  configkey: "hello"
+msg: hi man
