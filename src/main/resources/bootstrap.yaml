@@ -5,6 +5,7 @@ spring.cloud.config.server.git:
   uri: ${CONFIG_REPO_URI}
   label: master
   searchPaths: pcd1718-paas
+  clone-on-start: true
 
 #spring.cloud.config.server.encrypt.enabled: false # disable server-side decryption
 
