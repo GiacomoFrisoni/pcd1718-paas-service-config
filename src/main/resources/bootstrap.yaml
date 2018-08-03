@@ -4,7 +4,7 @@ spring.profiles.active: git
 spring.cloud.config.server.git:
   uri: ${CONFIG_REPO_URI}
   label: master
-  searchPaths: pcd1718-paas
+  searchPaths: ass4-paas
 
 #spring.cloud.config.server.encrypt.enabled: false # disable server-side decryption
 
