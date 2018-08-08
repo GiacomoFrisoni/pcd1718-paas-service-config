@@ -1,0 +1,1 @@
+start powershell -NoExit -command "$Host.UI.RawUI.WindowTitle = 'Service Config'; gradle bootjar; heroku local"
